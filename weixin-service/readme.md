@@ -98,4 +98,5 @@ private BaseMsg processMessageHandle(BaseReqMsg msg) {
 ```
 
 ### 总结
-fastweixin代码特别烂，靠循环寻找handler，还用异常当判断，加的新功能很牵强，不建议用this.initMessageHandles处理了。ll
+fastweixin代码有待，靠循环寻找handler，还用异常当判断，加的新功能很牵强，不建议用this.initMessageHandles处理了。
+还有功能上好像只有消息处理。
